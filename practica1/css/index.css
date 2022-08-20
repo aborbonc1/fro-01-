@@ -1,0 +1,27 @@
+html{
+    font-family: 'Segoe UI';
+    background-color: black;
+}
+
+.color-white{
+    color: white;
+}
+
+p{
+    text-align:justify;
+}
+
+.bg-yellow{
+    background-color: yellow;
+}
+
+.bg-black{
+    background-color: black;
+    color: white;
+}
+
+.contenedor-img-index img{ 
+    width: 500px;
+    margin: 0 auto;
+    display: block;
+}
