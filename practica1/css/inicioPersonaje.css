@@ -1,11 +1,31 @@
 html{
     font-family: 'Segoe UI';
     background-color: black;
+}
+
+.color-white{
     color: white;
 }
 
 p{
     text-align:justify;
+}
+
+.bg-yellow{
+    background-color: yellow;
+}
+
+.bg-black{
+    background-color: black;
+    color: white;
+}
+
+.contenedor-img-inicio { 
+    width: 250px;
+    height: 300px;
+    display:flex;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .ul-menu{
@@ -32,18 +52,4 @@ p{
 .ul-menu li a:hover{
     color: white;
     background: black;
-}
-
-
-.contenedor-img-personaje{
-    width: 250px;
-    height: 300px;
-    display:flex;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.contenedor-img-personaje img{
-    width: 100%;
-
 }
