@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+}
+
+.ul-menu{
+    list-style: none;
+    padding: 0%;
+    background: linear-gradient(to bottom right, #EA3349, #F35C43);
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+
+.ul-menu li a {
+    font-family:'Bahnschrift Light','Agency FB';
+    text-decoration: none;
+    color:black;
+    padding: 20px;
+    display: block;
+}
+
+.ul-menu li {
+    display: inline-block;
+}
+
+.ul-menu li a:hover{
+    color: white;
+    background: black;
+}
+
+h1{
+    color: black;
+    font-weight: normal;
+    font-family:'Bahnschrift Light','Agency FB'; 
+}
+
+#sct-contenedor{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; 
+    height: 500px;
+    background: linear-gradient(to bottom right, #EA3349, #F35C43);
+    position: relative;
+    height: 65vh;
+    color: white;
+}
+
+.p-numeros{
+    text-align: center;
+    font-size: 90px;
+    font-family:'Bahnschrift Light','Agency FB';
+    padding-bottom: 5px;   
+}
+
+.p-titulos{
+    text-align: center;   
+    font-size: 35px;   
+    font-weight: 200;
+    font-family:'Bahnschrift Light','Agency FB'; 
+}
