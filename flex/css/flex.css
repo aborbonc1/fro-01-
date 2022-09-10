@@ -2,13 +2,47 @@
     box-sizing: border-box;
 }
 
+.btn-morado{
+    border: 1px solid #A46B9F;
+    border-radius: 4px;
+    background: #A46B9F;
+    color: #fff;
+    height: 40px;
+}
+.btn-morado:hover{
+    background: #61185b;
+    cursor: pointer;
+}
+a.regresar{
+    font-size: 15px;
+    border: 2px solid #61185b;
+    background-color: #A46B9F;
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    margin: 2px;
+    padding: 10px;
+    width: 90px;
+}
+.regresar:hover{
+    background: #61185b;
+    cursor: pointer;
+}
+
 html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(14, 13, 13);
     text-align: center;
 }
 .caja{
     border: 2px solid #000;
     height: 100px;
     width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .verde{
