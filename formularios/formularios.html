@@ -2,62 +2,63 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- 1. Reset -->
+    <!--Reset -->
     <link rel="stylesheet" href="css/reset.css">
-    <!-- 2. Estilos externos -->
+    <!--Estilos externos -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&amp;display=swap" rel="stylesheet">
-    <!-- 3. Estilos de la página -->
+    <!--Estilo de la página -->
     <link rel="stylesheet" href="css/formularios.css">
     <title>Formularios</title>
 </head>
 <body>
     <main>
-        <!-- <h1>Carrera del día de la madre</h1>
-        <h2>LVLUP</h2> -->
-        <nav>
-            <a href="../../../index.html" class="regresar">Regresar</a>
-        </nav>
+        <h1>Carrera del día de madre</h1>
+        <h2>LVLUP</h2>
         <section id="sct-registro">
+
             <form id="frm-registro">
                 <header>
                     <h3>Registro en línea</h3>
                 </header>
 
-                 <div class="fila">
+                <div class="fila">
                     <div class="columna-2">
                         <label for="txt-nombre">Nombre</label>
-                        <input type="text" placeholder="Ingrese su nombre" id="txt-nombre">
+                        <input type="text" placeholder="Nombre" id="txt-nombre">
                     </div>
-                    <div class="columna-2">
-                        <label for="txt-apellido">Apellido</label>
-                        <input type="text" placeholder="Ingrese su apellido" id="txt-apellido">
-                    </div>
-                 </div>
 
-                 <div class="fila">
+                    <div class="columna-2">
+                        <label for="txt-apellidos">Apellidos</label>
+                        <input type="text" placeholder="Apellidos" id="txt-apellidos">
+                    </div>
+                </div>
+
+                <div class="fila">
                     <div class="columna">
                         <label for="txt-correo">Correo electrónico</label>
-                        <input type="email" placeholder="nombre@gmail.com" id="txt-correo">
-                    </div>
-                 </div>
 
-                 <div class="fila">
+                        <input type="email" id="txt-correo" placeholder="adrianabc@gmail.com">
+                    </div>
+                </div>
+
+                <div class="fila">
                     <div class="columna">
                         <label for="txt-direccion">Dirección</label>
-                        <input type="text" placeholder="Ingrese su dirección" id="txt-direccion">
+                        <input type="text" id="txt-direccion" placeholder="Dirección">
                     </div>
-                 </div>
+                </div>
 
-                 <div class="fila">
+                <div class="fila">
                     <div class="columna-3">
                         <label for="txt-ciudad">Ciudad</label>
-                        <input type="text" placeholder="Ingrese su ciudad" id="txt-ciudad">
+                        <input type="text" id="txt-ciudad" placeholder="Ciudad">
                     </div>
+
                     <div class="columna-3">
                         <label for="slt-provincia">Provincia</label>
-                        <select name="provincia" id="slt-provincia">
+                        <select id="slt-provincia">
                             <option value="">Provincia</option>
                             <option value="1">San José</option>
                             <option value="2">Alajuela</option>
@@ -68,20 +69,23 @@
                             <option value="7">Guanacaste</option>
                         </select>
                     </div>
-                    <div class="columna-3">
-                        <label for="text-zip">Código Postal</label>
-                        <input type="text" id="text-zip">
-                    </div>
-                 </div>
 
-                 <div class="fila">
+                    <div class="columna-3">
+                        <label for="txt-zip">Código postal</label>
+                        <input type="text" id="txt-zip">
+                    </div>
+                </div>
+                <div class="fila">
                     <div class="columna">
                         <button type="button" id="btn-registrar" class="btn-morado">Registrarme</button>
                     </div>
-                 </div>
+                </div>
             </form>
         </section>
     </main>
+
     <script src="js/formularios.js"></script>
+
 </body>
+
 </html>
