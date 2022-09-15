@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 
 body{
     padding: 20px;
@@ -6,28 +9,51 @@ body{
     align-items: center;
 }
 
-.flex-container{
+
+#flex-container{
     display: flex;
-    justify-content:space-around;
+    align-items:flex-end;
+    justify-content:space-evenly;
     border: 1px solid black;
-    width: 1250px;
-    padding: 40px;
+    width: 1000px;
+    height: 550px;
+    padding: 10px;
 }
+
+h2 {
+    text-align: center;  
+  }
 
 .caja .img{
     display:flex;
     justify-content: center;
-    align-self:flex-start;
-    width: 200px;
-    height: 250px;
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
 }
 
 .caja{
+
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
     border: 2px solid black;
-    padding: 20px;
     width: 250px;
-    height: 600px;
+    height: 400px;
+
+}
+
+h3{
+    display: flex;
+    margin: 0 auto;
+    padding: 35px;
+}
+
+.votacion{
+    display: flex;
+    border: 2px solid black;
+    width: 155px;
+    height: 100px;
+    margin: 0 auto;
 }
 
