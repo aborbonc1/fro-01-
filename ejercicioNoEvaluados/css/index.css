@@ -1,0 +1,33 @@
+
+body{
+    padding: 20px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.flex-container{
+    display: flex;
+    justify-content:space-around;
+    border: 1px solid black;
+    width: 1250px;
+    padding: 40px;
+}
+
+.caja .img{
+    display:flex;
+    justify-content: center;
+    align-self:flex-start;
+    width: 200px;
+    height: 250px;
+}
+
+.caja{
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    padding: 20px;
+    width: 250px;
+    height: 600px;
+}
+
