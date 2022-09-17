@@ -1,0 +1,113 @@
+/* Estilos de 0px en adelante*/
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    background: #373c3f;
+    color: #ebebeb;
+}
+
+header #nav-mobile{
+    display: flex;
+    justify-content: space-between;
+    min-height: 32px;
+    padding-left: 4%;
+}   
+
+header #nav-mobile span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header #nav-mobile .material-icons{
+    background: #202529;
+    min-height: 32px;
+    min-width: 32px;
+}
+
+header #nav-desktop{
+
+    display: none;
+}
+
+/* Inicio estilos sección cuadros */
+#sct-imagenes {
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.caja{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 50%;
+}
+.flecha{
+    background: #5f27cd;
+}
+
+#sct-imagenes .flecha span{
+    color: white;
+    
+}
+
+.bridge{
+    align-self: flex-start;
+    background: #FFC312;
+}
+.woman{
+    background: #EA2027;
+}
+
+
+
+@media all and (min-width: 640px){
+    header #nav-mobile{
+        min-height: 75px;
+    }
+    header #nav-mobile .material-icons{
+        min-width: 75px;
+        min-height: 75px;
+    }
+
+}
+
+@media all and (min-width: 980px){
+
+    header #nav-mobile{
+        display: none;
+    }
+
+    header #nav-desktop{
+        display: flex;
+        align-items: center;
+        min-height: 100px;
+        padding-left: 4%;
+        justify-content: space-between;
+        width: 60%;
+    }
+
+    header #nav-desktop a {
+        color: #ebebeb;
+        text-decoration: none;
+    }
+
+}
+
+@media all and (max-width:980px){
+    #sct-imagenes{
+        flex-direction: column;
+    }
+    #sct-imagenes .caja{
+        width: 100%;
+    }
+
+}
