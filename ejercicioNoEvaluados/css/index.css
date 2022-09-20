@@ -9,8 +9,11 @@ body{
     align-items: center;
 }
 
+h1{
+    text-align: center;
+}
 
-#flex-container{
+#flex-container .pokemon{
     display: flex;
     align-items:flex-end;
     justify-content:space-evenly;
@@ -20,9 +23,6 @@ body{
     padding: 10px;
 }
 
-h2 {
-    text-align: center;  
-  }
 
 .caja .img{
     display:flex;
