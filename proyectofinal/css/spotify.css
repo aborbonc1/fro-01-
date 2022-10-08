@@ -1,0 +1,444 @@
+*{
+box-sizing: border-box;
+}
+
+html{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*Inicio del menu */
+
+.nav-contenedor{
+    height: 80px;
+    display: flex;
+    border: 2px solid black;
+    background: black;
+    padding-right: 80px;
+}
+
+.nav-contenedor .item-1{
+    display: flex;
+    flex-grow: 1;
+    padding-left: 90px;
+    color: white;
+}
+
+.nav-contenedor .item-1 span{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    font-weight:bold;
+}
+
+.nav-contenedor .item-1 .marcareg{
+    font-size: 5px;
+    color: darkgray;
+}
+
+.nav-contenedor .item-1 img{
+    display: flex;
+    align-items: center;  
+    width: 40px;
+    height: 40px;
+    margin-top: 18px;
+}
+
+.ul-menu{
+    display: flex;
+    justify-content:space-around;
+    color: white;
+    font-size: 15px;
+    font-weight:bold;
+}
+
+.ul-menu li a {
+    text-decoration: none;
+    color:white;
+    padding: 30px 18px;
+    display: block;
+}
+
+.ul-menu li a:hover{
+    color: green;
+    background: black;
+}
+
+/*Fin del menu */
+
+/*Inicio del main - GET premiun */
+
+.div-contenedor{
+    padding: 140px;
+    height: 480px;
+    padding-left: 100px;
+    display: flex;
+    flex-direction: column;
+    background:#1D75DE;
+    color: white;
+}
+
+.div-contenedor .item-8{
+    font-size: 40px;
+    font-weight:bold;
+    margin-bottom: 40px;
+}
+.div-contenedor .column .item-9{
+    color: white;
+    font-size: 22px;
+    margin-bottom: 40px;
+
+
+}
+
+.div-contenedor .row button{
+    margin: 0 4px;
+    border-radius: 30px;
+    width: 160px;
+    height: 50px;
+    font-size: 14px;
+    font-weight:bold;
+    color: white;
+}
+
+.div-contenedor .row .button1{
+    background: black;
+
+}    
+
+.div-contenedor .row .button2{
+    background: black;
+    background:#1D75DE;
+    border: 2px solid white;
+    margin-bottom: 40px;
+}    
+
+.div-contenedor .column-2{
+    font-size: 10px;
+}
+
+.div-contenedor .column-2 span{
+   text-decoration: underline;
+}
+
+.div-contenedor .row button:hover{
+    font-weight: bold;
+    transform: scale(1.04, 1.04);
+}
+
+/*Fin del main - GET premiun */
+
+/*Inicio del main - Go premiun */
+
+.div-premium{
+    height: 550px;
+    background:white;
+}
+
+.div-premium h1{
+    padding: auto;
+    text-align: center;
+    font-size: 40px;
+    font-weight:bold;
+    padding: 80px
+}
+
+.column-3 .items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin:0 380px auto;
+}
+
+.column-3 .items img{
+    display: flex;
+    justify-content: center;
+    margin:0 65px auto;
+    margin-bottom: 40px;
+    height: 150px;
+    width: 150px;
+}
+
+h3{
+    text-align: center;
+    font-size: 20px;
+    font-weight:bold;
+    margin-bottom: 20px;
+
+}
+
+.column-3 .items p{
+    text-align: center;
+    font-size: 15px;
+}
+
+/*Fin del main - Go premiun */
+
+/*Inicio del main - Pick your Premium */
+
+.div-pickyour{
+    height: 970px;
+    background:#efefef;
+}
+
+.div-pickyour h2{
+    text-align: center;
+    font-size: 35px;
+    font-weight:bold;
+    margin-bottom: 15px;
+    padding-top: 70px;
+}
+
+.div-pickyour .text-p p{
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.div-pickyour .tarjetas img{
+    display: flex;
+    justify-content: center;
+    padding-left: 560px;
+    margin-bottom: 55px;
+}
+
+.column-4 .items-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin:0 105px auto;
+}
+
+.column-4 .items-2 .item-11{
+    display: flex;
+    border-radius: 10px;
+    padding: 15px;
+    background: white;
+    height: 600px;
+    width: 270px;
+    box-shadow:0 0 10px rgba(0,0,0,0.3)
+}
+
+.column-4 .items-2 .item-11 .item-p .month{
+    display: flex;
+    border-radius: 5px;
+    width: 100px;
+    height: 25px;
+    background:#3742fa;
+}
+
+.column-4 .items-2 .item-11 .item-p .month p{
+    color: white;
+    font-size: 14px;
+    font-weight:bold;
+    text-align: center;
+    padding: 5px;
+    margin: 0 2px auto;
+}
+
+.column-4 .items-2 .item-11 .text-2 p{
+    color: black;
+    font-size: 23px;
+    font-weight:bold;
+    margin-top: 10px;
+}
+
+.column-4 .items-2 .item-11 .text-3 p{
+    color: black;
+    font-size: 17px;
+    margin-top: 10px;
+    margin-bottom:10px;
+}
+
+.column-4 .items-2 .item-11 hr{
+    color: black;
+    height:2px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.column-4 .items-2 .item-11 .plan img{
+    width: 40px;
+}
+
+.column-4 .items-2 .item-11 .plan {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 17px;
+    margin-bottom: 8px;
+}
+
+.item-11 .row-2 button{
+    border-radius: 30px;
+    width: 240px;
+    height: 50px;
+    font-size: 14px;
+    font-weight:bold;
+    color: white;
+}
+
+.item-11 .row-2 .button1{
+    background: black;
+    margin-top: 90px; 
+} 
+
+.item-11 .row-2 .button2{
+    background: black;
+    margin-top: 120px; 
+} 
+
+.item-11 .row-2 .button3{
+    background: black;
+    margin-top: 20px; 
+}  
+
+.item-11 .row-2 .button4{
+    background: black;
+    margin-top: 10px; 
+}   
+
+.item-11 .item-p .column-3{
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+.item-11 .item-p .column-3 span{
+   text-decoration: underline;
+}
+
+.column-4 .row-2 button:hover{
+    font-weight: bold;
+    transform: scale(1.04, 1.04);
+}
+
+
+/*Fin del main - Pick your Premium */
+
+/*Inicio del footer - Contact */
+footer {
+    height: 485px;
+    background:black;
+}
+
+.footer-info .item-1{
+    display: flex;
+    color: white;
+    margin-left: 90px;
+}
+
+.footer-info .item-1 span{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    font-weight:bold;
+    margin-top: 60px;
+}
+
+.footer-info .item-1 .marcareg{
+    font-size: 5px;
+    color: darkgray;
+}
+
+.footer-info .item-1 img{
+    align-items: center;  
+    width: 40px;
+    height: 40px;  
+    margin-top: 60px;
+}
+
+.footer-info p {
+    color: grey;
+    font-weight: bold;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+.footer-info .contact{
+    display: flex;
+    flex-direction: row;
+    padding-left: 260px;
+    padding-right: 50px; 
+    justify-content: space-around;
+
+}
+
+.footer-info .contact li{
+    margin-bottom: 25px;
+}
+.footer-info .contact a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.social-2 ul{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 220px;
+}
+
+.contact li a:hover{
+    color: green;
+    background: black;
+}
+
+.last-part .usa{
+    display: flex;
+    justify-content: right;
+    padding-right: 110px;
+
+}
+
+.last-part .usa span{
+    color: grey;
+    font-size: 12px;
+}
+
+.privacy .last-part{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-2{
+    display: flex;
+    flex-direction: row;
+    padding-left: 90px;
+    padding-right: 85px;
+    justify-content: space-around;
+}
+
+.contact-2 li{
+    margin-bottom: 25px;
+}
+
+.contact-2 a{
+    color: gray;
+    text-decoration: none;
+    font-size: 11px;
+}
+
+.contact-2 .social{
+    display: flex;
+    padding-left: 300px;
+}
+
+.social-2 span{
+    font-size: 12px;
+    color: gray;
+}
+
+.contact-2 a:hover{
+    color: green;
+    background: black;
+}
+
+/*Fin del footer - Contact */
+
+/*Inicio de media querys*/
+@media  screen and (max-width: 700px){
+
+    .div-premium{
+        background: red;
+    }
+
+}
