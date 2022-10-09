@@ -554,7 +554,7 @@ footer {
     }
 
     .div-contenedor .row button{
-        width: 360px;
+        width: 250px;
         height: 50px;
         margin-bottom: 10px;
     }
@@ -565,7 +565,7 @@ footer {
 @media  all and (max-width: 640px){
     
     .div-pickyour .tarjetas img{
-        padding-left: 140px;
+        padding-left: 80px;
         margin-bottom: 55px;
     }
 
@@ -573,6 +573,10 @@ footer {
         height: 2800px;
         background:#efefef;
     }
+    
+    .column-4 .items-2{
+        margin:0 60px;
+    }    
 
     .column-4 .items-2{
         display: flex;
