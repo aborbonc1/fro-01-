@@ -6,44 +6,83 @@ html{
     font-family: 'Montserrat', sans-serif;
 }
 
-/*Inicio del menu */
 
-.nav-contenedor{
-    height: 80px;
+/*Inicio del menu*/
+
+header #nav-mobile{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 4%;
+    background: black;
+}   
+
+header #nav-mobile span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+header #nav-mobile img{
+    display: flex;
+    align-items: center;  
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
+}
+
+header #nav-mobile .material-icons{
+    min-height: 50px;
+    min-width: 50px;
+    color: white;
+    padding-left: 60%;
+}
+
+#nav-mobile .marcareg{
+    font-size: 5px;
+    color: darkgray;
+}
+
+header #nav-desktop{
+    display: none;
+}
+/*-----------------------------------------*/
+header #nav-desktop{
     display: flex;
     border: 2px solid black;
     background: black;
     padding-right: 80px;
+    height: 70px;
 }
 
-.nav-contenedor .item-1{
+#nav-desktop .item-1{
     display: flex;
     flex-grow: 1;
-    padding-left: 90px;
+    padding-left: 40px;
     color: white;
 }
 
-.nav-contenedor .item-1 span{
+#nav-desktop  .item-1 span{
     display: flex;
     align-items: center;
     font-size: 25px;
     font-weight:bold;
 }
 
-.nav-contenedor .item-1 .marcareg{
+#nav-desktop .item-1 .marcareg{
     font-size: 5px;
     color: darkgray;
 }
 
-.nav-contenedor .item-1 img{
+#nav-desktop .item-1 img{
     display: flex;
     align-items: center;  
     width: 40px;
     height: 40px;
-    margin-top: 18px;
+    margin-top: 0px;
 }
 
-.ul-menu{
+#nav-desktop .ul-menu{
     display: flex;
     justify-content:space-around;
     color: white;
@@ -51,16 +90,20 @@ html{
     font-weight:bold;
 }
 
-.ul-menu li a {
+#nav-desktop .ul-menu li a {
     text-decoration: none;
     color:white;
     padding: 30px 18px;
     display: block;
 }
 
-.ul-menu li a:hover{
+#nav-desktop .ul-menu li a:hover{
     color: green;
     background: black;
+}
+
+header #nav-desktop{
+    display: none;
 }
 
 /*Fin del menu */
@@ -197,7 +240,7 @@ h3{
 .div-pickyour .tarjetas img{
     display: flex;
     justify-content: center;
-    padding-left: 560px;
+    padding-left: 600px;
     margin-bottom: 55px;
 }
 
@@ -435,10 +478,138 @@ footer {
 /*Fin del footer - Contact */
 
 /*Inicio de media querys*/
-@media  screen and (max-width: 700px){
 
-    .div-premium{
-        background: red;
+@media all and (min-width: 640px){
+    header #nav-mobile{
+        min-height: 75px;
+    }
+    header #nav-mobile .material-icons{
+        min-width: 75px;
+        min-height: 75px;
     }
 
 }
+
+@media all and (min-width: 980px){
+
+    header #nav-mobile{
+        display: none;
+    }
+
+    header #nav-desktop{
+        display: flex;
+        align-items: center;
+        min-height: 100px;
+        padding-left: 4%;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    header #nav-desktop a {
+        color: #ebebeb;
+        text-decoration: none;
+    }
+
+}
+
+/*GET PREMIUM*/
+@media  all and (max-width: 640px){
+    #sct-contenedor .div-contenedor{
+        display: flex;
+        height: 650px;
+    }    
+
+    .div-contenedor{
+        padding-left: 60px;
+    }
+}
+
+/*Why go premium*/
+@media  all and (max-width: 640px){
+
+    #sct-premium .div-premium{
+
+        height: 1300px;
+    }
+
+    #sct-premium .items{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .column-3 .items{
+        margin:0;
+    }
+    
+    h3{
+        text-align: center;
+        margin-bottom: 20px;
+    
+    }
+    
+    .column-3 .items p{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .div-contenedor .row button{
+        width: 360px;
+        height: 50px;
+        margin-bottom: 10px;
+    }
+
+}
+
+/*Pick your Premium*/
+@media  all and (max-width: 640px){
+    
+    .div-pickyour .tarjetas img{
+        padding-left: 140px;
+        margin-bottom: 55px;
+    }
+
+    .div-pickyour{
+        height: 2800px;
+        background:#efefef;
+    }
+
+    .column-4 .items-2{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .column-4 .items-2 .item-11{
+        margin-bottom: 30px;
+    }
+    
+}
+
+/*footer*/
+@media  all and (max-width: 640px){
+    footer {
+        height: 1000px;
+    }
+
+    .footer-info .contact{
+        display: flex;
+        flex-direction: column;
+        padding-left: 100px;
+    }
+
+    .footer-info .item-1{
+        margin-bottom: 30px;
+    }
+    .social-2 ul{
+        margin-bottom: 20px;
+    }
+
+    .contact-2{
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-2 .social{
+        padding-left: 0;
+    }
+}
+

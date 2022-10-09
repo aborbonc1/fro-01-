@@ -20,5 +20,60 @@ html {
   text-decoration: none;
 }
 #sct-banner .material-icons {
-  font-size: 16px;
+  font-size: 1rem;
+}
+
+#sct-robin-info .robin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #373c3f;
+  color: #6a5d75;
+  height: 75px;
+  color: #ebebeb;
+}
+#sct-robin-info .robin p {
+  margin-bottom: 0;
+}
+#sct-robin-info .flecha {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #bc3183;
+  color: #ebebeb;
+  height: 75px;
+}
+
+#sct-galeria .caja-morada {
+  align-items: center;
+  background: #5b0fa1;
+  color: #ebebeb;
+  display: flex;
+  height: 50vh;
+  justify-content: center;
+}
+#sct-galeria img {
+  max-height: 50vh;
+}
+
+@media (min-width: 430px) {
+  #sct-galeria .caja-morada {
+    max-height: 60vh;
+  }
+  #sct-galeria img {
+    max-height: 60vh;
+  }
+}
+@media (min-width: 640px) {
+  #sct-robin-info .robin, #sct-robin-info .flecha {
+    height: 150px;
+  }
+}
+@media (min-width: 980px) {
+  #sct-galeria .caja-morada {
+    max-height: 50vh;
+  }
+  #sct-galeria img {
+    max-height: 50vh;
+  }
 }/*# sourceMappingURL=base.css.map */
