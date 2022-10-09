@@ -3,13 +3,13 @@ html {
   font-size: 16px;
 }
 html .sp-spotify {
-  color: #ebebeb;
+  color: #FFFFFF;
   font-size: 25px;
   font-weight: bold;
   text-decoration: none;
 }
 html .marcareg {
-  color: #ebebeb;
+  color: #FFFFFF;
   font-size: 5px;
   font-weight: bold;
   text-decoration: none;
@@ -19,13 +19,17 @@ header nav {
   height: 60;
 }
 
+.navbar{
+  background: black;
+}
+
 header nav .navbar-nav {
   padding: 20px;
   padding-right: 100px;
 }
 
 header nav .navbar-nav a, header nav .navbar-nav span {
-  color: #ebebeb;
+  color: #FFFFFF;
   padding: 20px;
   text-decoration: none;
   font-weight: bold;
@@ -37,7 +41,7 @@ header nav .navbar-nav a:hover {
 
 #sct-banner {
   background: #1D75DE;
-  color: #ebebeb;
+  color: #FFFFFF;
   padding: 90px;
   padding-left: 90px;
   margin-bottom: 40px;
@@ -59,17 +63,31 @@ header nav .navbar-nav a:hover {
   text-decoration: underline;
 }
 
-button {
+button{
   margin: 0 4px;
   border-radius: 30px;
   width: 160px;
   height: 50px;
   font-size: 14px;
-  font-weight: bold;
+  font-weight:bold;
+  color: white;
 }
 
-button:hover {
-  background: rgba(25, 20, 19, 0.1);
+.button1{
+  background: black;
+
+}    
+
+.button2{
+  background: black;
+  background:#1D75DE;
+  border: 2px solid white;
+  margin-bottom: 40px;
+} 
+
+button:hover{
+  font-weight: bold;
+  transform: scale(1.04, 1.04);
 }
 
 #sct-premium img {
