@@ -1,86 +1,101 @@
-
 html 
-    font-family:$tipografia-principal
-    font-size: 16px
+  font-family: "Montserrat", sans-serif
+  font-size: 16px
 
-    .sp-spotify 
-        color: $blanco
-        font-size: 25px
-        font-weight: bold
-        text-decoration: none
+header 
+  font-weight: 600
+  background: $negro
 
-    .marcareg
-        color: $blanco
-        font-size: 5px
-        font-weight: bold
-        text-decoration: none
+  nav 
+    height: 80px
 
-header nav 
-    height: 60
-
-header nav .navbar-nav
-    padding: 20px
-    padding-right: 100px
-
-header nav .navbar-nav a, header nav .navbar-nav span 
-    color: $blanco
-    padding: 20px
-    text-decoration: none
-    font-weight: bold
-
-header nav .navbar-nav a:hover 
-    color: $verde
-
-#sct-banner
-    background: $celeste
-    color: $blanco
-    padding: 90px
-    padding-left: 90px
-    margin-bottom: 40px
+    img 
+      width: 30px
+      height: 30px
     
-    h1
-        font-size: 40px
-        font-weight: bold
-        margin-bottom: 40px
-    .item-9
-        font-size: 22px
-        margin-bottom: 40px
-    p
-        font-size: 14px
-        margin-bottom: 40px
-    span
-        text-decoration: underline 
+    .sp-spotify
+       color: $blanco    
+       font-size: 30px
 
-button
+    .marcareg 
+       color: $blanco  
+       font-size: 5px
+
+    .navbar-toggler 
+      border: none
+
+    .navbar-nav 
+      a 
+        color: $blanco
+
+      a:hover 
+        color: $verde
+
+#sct-banner 
+  background: $celeste
+  height: 480px
+
+  p
+    color: $blanco  
+
+  button
     margin: 0 4px
     border-radius: 30px
     width: 160px
     height: 50px
     font-size: 14px
+    font-weight:bold
+    color: white
+
+  .btn-button1
+    background: $negro
+  
+
+  .btn-button2 
+    border: 2px solid $blanco
+    background: none
+  
+  button:hover
+    font-weight: bold
+    transform: scale(1.04, 1.04)
+
+
+h1,a
+    color: $blanco
+
+a
+  text-decoration: none
+
+.sp-terms
+    text-decoration: underline
+
+p
+    text-decoration:  none   
+
+#sct-premium 
+  color: $negro
+  padding: 30px
+
+  img 
+    width: 90px
+    height: 90px
+    margin-right: 20px
+
+h2 
     font-weight: bold
 
-    .button1 
-        background: $negro
+@media (min-width: 640px) 
+  #sct-premium 
+    img 
+      width: 150px
+      height: 150px
+      margin-right: 20px
+    
+    .premium-row 
+      width: 100%
+    
 
-
-button:hover 
-    background: rgba(25, 20, 19, 0.1)
-
-#sct-premium img
-    display: flex
-    justify-content: center
-    margin:65px 
-    margin-bottom: 40px
-    height: 150px
-    width: 150px
-
-#sct-premium h2
-    font-size: 40px
-    font-weight: bold
-
-#sct-premium h3
-    font-size: 22px
-    font-weight: bold
-    margin-bottom: 15px
-    font-weight: bold
-
+    .premium-col 
+      width: 50%
+    
+/*# sourceMappingURL=base.css.map */

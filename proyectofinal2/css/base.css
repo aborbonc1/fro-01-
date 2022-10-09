@@ -2,111 +2,104 @@ html {
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
 }
-html .sp-spotify {
-  color: #FFFFFF;
-  font-size: 25px;
-  font-weight: bold;
-  text-decoration: none;
+
+header {
+  font-weight: 600;
+  background: #000000;
 }
-html .marcareg {
+header nav {
+  height: 80px;
+}
+header nav img {
+  width: 30px;
+  height: 30px;
+}
+header nav .sp-spotify {
+  color: #FFFFFF;
+  font-size: 30px;
+}
+header nav .marcareg {
   color: #FFFFFF;
   font-size: 5px;
-  font-weight: bold;
-  text-decoration: none;
 }
-
-header nav {
-  height: 60;
+header nav .navbar-toggler {
+  border: none;
 }
-
-.navbar{
-  background: black;
-}
-
-header nav .navbar-nav {
-  padding: 20px;
-  padding-right: 100px;
-}
-
-header nav .navbar-nav a, header nav .navbar-nav span {
+header nav .navbar-nav a {
   color: #FFFFFF;
-  padding: 20px;
-  text-decoration: none;
-  font-weight: bold;
 }
-
 header nav .navbar-nav a:hover {
   color: #008001;
 }
 
 #sct-banner {
   background: #1D75DE;
-  color: #FFFFFF;
-  padding: 90px;
-  padding-left: 90px;
-  margin-bottom: 40px;
-}
-#sct-banner h1 {
-  font-size: 40px;
-  font-weight: bold;
-  margin-bottom: 40px;
-}
-#sct-banner .item-9 {
-  font-size: 22px;
-  margin-bottom: 40px;
+  height: 480px;
 }
 #sct-banner p {
-  font-size: 14px;
-  margin-bottom: 40px;
+  color: #FFFFFF;
 }
-#sct-banner span {
-  text-decoration: underline;
-}
-
-button{
+#sct-banner button {
   margin: 0 4px;
   border-radius: 30px;
   width: 160px;
   height: 50px;
   font-size: 14px;
-  font-weight:bold;
   color: white;
 }
-
-.button1{
-  background: black;
-
-}    
-
-.button2{
-  background: black;
-  background:#1D75DE;
-  border: 2px solid white;
-  margin-bottom: 40px;
-} 
-
-button:hover{
+#sct-banner .btn-button1 {
+  background: #000000;
+}
+#sct-banner .btn-button2 {
+  border: 2px solid #FFFFFF;
+  background: none;
+}
+#sct-banner button:hover {
   font-weight: bold;
   transform: scale(1.04, 1.04);
 }
 
+h1, a {
+  color: #FFFFFF;
+}
+
+a {
+  text-decoration: none;
+}
+
+.sp-terms {
+  text-decoration: underline;
+}
+
+p {
+  text-decoration: none;
+}
+
+#sct-premium {
+  color: #000000;
+  padding: 30px;
+}
 #sct-premium img {
-  display: flex;
-  justify-content: center;
-  margin: 65px;
-  margin-bottom: 40px;
-  height: 150px;
-  width: 150px;
+  width: 90px;
+  height: 90px;
+  margin-right: 20px;
 }
 
-#sct-premium h2 {
-  font-size: 40px;
+h2 {
   font-weight: bold;
 }
 
-#sct-premium h3 {
-  font-size: 22px;
-  font-weight: bold;
-  margin-bottom: 15px;
-  font-weight: bold;
-}/*# sourceMappingURL=base.css.map */
+@media (min-width: 640px) {
+  #sct-premium img {
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+  }
+  #sct-premium .premium-row {
+    width: 100%;
+  }
+  #sct-premium .premium-col {
+    width: 50%;
+  }
+}
+/*# sourceMappingURL=base.css.map *//*# sourceMappingURL=base.css.map */
